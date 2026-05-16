@@ -70,3 +70,11 @@ mini-swe-agent/
 result
 website/static/api/skills-index.json
 models-dev-upstream/
+
+# Local agent/swarm runtime state and vector indexes
+.claude-flow/
+.swarm/
+ruvector.db
+
+# Local external checkout / experiment workspace
+tinker-atropos/
